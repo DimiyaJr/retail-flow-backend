@@ -12,7 +12,7 @@ const dbServer = {
     port: parseInt(process.env.DB_PORT, 10) || 3306,
     user: process.env.DB_USERNAME,
     password: process.env.DB_PASSWORD,
-    database: "saysmulx_qtmp",
+    database: "saysmulx__inventory_test",
 };
 
 const localDbServer = {
